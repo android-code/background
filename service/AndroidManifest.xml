@@ -1,0 +1,8 @@
+<!-- some AndroidManifest body -->
+
+<!-- don't declare intent filters, use explicit intent to start -->
+<!-- enabled - can be instantiated by the system, exported - is available for other apps -->
+<service
+    android:name=".CustomService"
+    android:enabled="true"  
+    android:exported="false"/> 
