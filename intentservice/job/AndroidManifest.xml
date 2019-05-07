@@ -1,0 +1,5 @@
+<!-- remember to add Service to AndroidManifest in the same way like base JobService 
+//with required BINB_JOB_SERVICE permission -->
+<service
+    android:name=".CustomJobIntentService"
+    android:permission="android.permission.BIND_JOB_SERVICE"/>
